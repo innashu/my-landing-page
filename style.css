@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header,.hero {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+     font-size: 18px;
+    color: #E5E7Eb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
