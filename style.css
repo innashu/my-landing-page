@@ -5,42 +5,46 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-.header,.hero {
-    background-color: #1F2937;
-}
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
-.hero-text h2 {
-    font-size: 48px;
-    color: #F9FAF8;
-}
-
-.hero-text p {
-     font-size: 18px;
-    color: #E5E7Eb;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    color: grey;
-    text-decoration: none;
+.header,
+.hero {
+  background-color: #1f2937;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: grey;
+  text-decoration: none;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
